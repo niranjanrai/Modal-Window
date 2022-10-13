@@ -22,4 +22,4 @@ const closeModal = function () {
 btnCloseModal.addEventListener('click', closeModal);
 overlay.addEventListener('click', closeModal);
 
-console.log(btnsOpenModal);
+document.addEventListener('keydown', closeModal);
